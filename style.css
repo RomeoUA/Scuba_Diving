@@ -7,7 +7,8 @@ html {
     font-family: "Quicksand";
 }
 .container {
-    margin: 0 5rem;
+    margin: 0 auto;
+    width: 1200px;
 }
 header {
     background-color: #0C70AC;
@@ -140,10 +141,6 @@ ul {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
-.end {
-    background-color: #001C2D;
-    border-top: 1px solid white;
-}
 .end-text {
     color: #FFFFFF;
     margin: 40px;
@@ -152,5 +149,7 @@ ul {
 .end-flex {
     display: flex;
     justify-content: center;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 40px;
 }
 
