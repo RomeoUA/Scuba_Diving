@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: "Quicksand";
+}
+.container {
+    margin: 0 5rem;
+}
+header {
+    background-color: #0C70AC;
+    border-bottom: 1px solid white;
+    /* position: fixed; */
+}
+.header-flex {
+    padding: 2rem 0;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px; 
+}
+.nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-link:hover {
+    color: #F4DE1F;
+}
+.divingmain {
+    background-color: #0C70AC;
+}
+h1 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.divingmain_text {
+    color: rgb(255,255,255,67%);
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 0px 4px 2px rgba(0,0,0,0.25);
+}
+.divingmain-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divingmain-img {
+    width: 400px;
+}
+.destinations-lands {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.destinations-title {
+    font-size: 26px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    font-weight: 600;
+}
+ul {
+    list-style: none;
+}
+.destinations-img, .footer-img {
+    width: 100%;
+}
+.lands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lands-title {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 10px;
+}
+.destinations-text {
+    margin-bottom: 15px;
+}
+.destinations-btn {
+    color: #7C7C7C;
+    margin-bottom: 35px;
+}
+.our_blog {
+    background-color: #E6E6E6;
+}
+.blogging {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+.our_blog-datum {
+    color: #7C7C7C;
+    margin: 10px 15px;
+}
+.our_blog-title {
+    font-size: 20px;
+    margin: 10px 15px;
+}
+.our_blog-text {
+    color: #7C7C7C;
+    margin: 10px 15px;
+    margin-bottom: 20px;
+}
+.footer {
+    background-color: #001C2D;
+    padding-bottom: 30px;
+}
+.footer-title {
+    color: #FFFFFF;
+    padding: 30px 0;
+}
+.links {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-flex {
+    display: flex;
+    justify-content: left;
+    gap: 100px;
+}
+.footer-links {
+    flex-basis: 70%;
+}
+.ul-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.ul-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.end {
+    background-color: #001C2D;
+    border-top: 1px solid white;
+}
+.end-text {
+    color: #FFFFFF;
+    margin: 40px;
+    font-family: "Inter";
+}
+.end-flex {
+    display: flex;
+    justify-content: center;
+}
+
